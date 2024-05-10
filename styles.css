@@ -1,0 +1,27 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 600px;
+  margin: 15px auto;
+}
+
+h1, h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+ul, ol {
+  margin-left: -20px;
+}
+
+ul li::marker {
+  color: orange;
+}
+
+ol li::marker {
+  font-weight: bold;
+}
+
+.recipe-photo {
+  border: 5px solid orange;
+}
